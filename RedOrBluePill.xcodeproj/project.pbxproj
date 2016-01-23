@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40FB25001C532FEB001C0F8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB24FF1C532FEB001C0F8F /* AppDelegate.swift */; };
+		40FB25021C532FEB001C0F8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB25011C532FEB001C0F8F /* ViewController.swift */; };
+		40FB25051C532FEB001C0F8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FB25031C532FEB001C0F8F /* Main.storyboard */; };
+		40FB25071C532FEB001C0F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FB25061C532FEB001C0F8F /* Assets.xcassets */; };
+		40FB250A1C532FEB001C0F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FB25081C532FEB001C0F8F /* LaunchScreen.storyboard */; };
+		40FB25151C532FEB001C0F8F /* RedOrBluePillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB25141C532FEB001C0F8F /* RedOrBluePillTests.swift */; };
+		40FB25201C532FEB001C0F8F /* RedOrBluePillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FB251F1C532FEB001C0F8F /* RedOrBluePillUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40FB25111C532FEB001C0F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40FB24F41C532FEB001C0F8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40FB24FB1C532FEB001C0F8F;
+			remoteInfo = RedOrBluePill;
+		};
+		40FB251C1C532FEB001C0F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40FB24F41C532FEB001C0F8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40FB24FB1C532FEB001C0F8F;
+			remoteInfo = RedOrBluePill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40FB24FC1C532FEB001C0F8F /* RedOrBluePill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedOrBluePill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FB24FF1C532FEB001C0F8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40FB25011C532FEB001C0F8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40FB25041C532FEB001C0F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40FB25061C532FEB001C0F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40FB25091C532FEB001C0F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40FB250B1C532FEB001C0F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FB25101C532FEB001C0F8F /* RedOrBluePillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedOrBluePillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FB25141C532FEB001C0F8F /* RedOrBluePillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedOrBluePillTests.swift; sourceTree = "<group>"; };
+		40FB25161C532FEB001C0F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FB251B1C532FEB001C0F8F /* RedOrBluePillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedOrBluePillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FB251F1C532FEB001C0F8F /* RedOrBluePillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedOrBluePillUITests.swift; sourceTree = "<group>"; };
+		40FB25211C532FEB001C0F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40FB24F91C532FEB001C0F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FB250D1C532FEB001C0F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FB25181C532FEB001C0F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40FB24F31C532FEB001C0F8F = {
+			isa = PBXGroup;
+			children = (
+				40FB24FE1C532FEB001C0F8F /* RedOrBluePill */,
+				40FB25131C532FEB001C0F8F /* RedOrBluePillTests */,
+				40FB251E1C532FEB001C0F8F /* RedOrBluePillUITests */,
+				40FB24FD1C532FEB001C0F8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40FB24FD1C532FEB001C0F8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40FB24FC1C532FEB001C0F8F /* RedOrBluePill.app */,
+				40FB25101C532FEB001C0F8F /* RedOrBluePillTests.xctest */,
+				40FB251B1C532FEB001C0F8F /* RedOrBluePillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40FB24FE1C532FEB001C0F8F /* RedOrBluePill */ = {
+			isa = PBXGroup;
+			children = (
+				40FB24FF1C532FEB001C0F8F /* AppDelegate.swift */,
+				40FB25011C532FEB001C0F8F /* ViewController.swift */,
+				40FB25031C532FEB001C0F8F /* Main.storyboard */,
+				40FB25061C532FEB001C0F8F /* Assets.xcassets */,
+				40FB25081C532FEB001C0F8F /* LaunchScreen.storyboard */,
+				40FB250B1C532FEB001C0F8F /* Info.plist */,
+			);
+			path = RedOrBluePill;
+			sourceTree = "<group>";
+		};
+		40FB25131C532FEB001C0F8F /* RedOrBluePillTests */ = {
+			isa = PBXGroup;
+			children = (
+				40FB25141C532FEB001C0F8F /* RedOrBluePillTests.swift */,
+				40FB25161C532FEB001C0F8F /* Info.plist */,
+			);
+			path = RedOrBluePillTests;
+			sourceTree = "<group>";
+		};
+		40FB251E1C532FEB001C0F8F /* RedOrBluePillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40FB251F1C532FEB001C0F8F /* RedOrBluePillUITests.swift */,
+				40FB25211C532FEB001C0F8F /* Info.plist */,
+			);
+			path = RedOrBluePillUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40FB24FB1C532FEB001C0F8F /* RedOrBluePill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FB25241C532FEB001C0F8F /* Build configuration list for PBXNativeTarget "RedOrBluePill" */;
+			buildPhases = (
+				40FB24F81C532FEB001C0F8F /* Sources */,
+				40FB24F91C532FEB001C0F8F /* Frameworks */,
+				40FB24FA1C532FEB001C0F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedOrBluePill;
+			productName = RedOrBluePill;
+			productReference = 40FB24FC1C532FEB001C0F8F /* RedOrBluePill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40FB250F1C532FEB001C0F8F /* RedOrBluePillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FB25271C532FEB001C0F8F /* Build configuration list for PBXNativeTarget "RedOrBluePillTests" */;
+			buildPhases = (
+				40FB250C1C532FEB001C0F8F /* Sources */,
+				40FB250D1C532FEB001C0F8F /* Frameworks */,
+				40FB250E1C532FEB001C0F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40FB25121C532FEB001C0F8F /* PBXTargetDependency */,
+			);
+			name = RedOrBluePillTests;
+			productName = RedOrBluePillTests;
+			productReference = 40FB25101C532FEB001C0F8F /* RedOrBluePillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40FB251A1C532FEB001C0F8F /* RedOrBluePillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FB252A1C532FEB001C0F8F /* Build configuration list for PBXNativeTarget "RedOrBluePillUITests" */;
+			buildPhases = (
+				40FB25171C532FEB001C0F8F /* Sources */,
+				40FB25181C532FEB001C0F8F /* Frameworks */,
+				40FB25191C532FEB001C0F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40FB251D1C532FEB001C0F8F /* PBXTargetDependency */,
+			);
+			name = RedOrBluePillUITests;
+			productName = RedOrBluePillUITests;
+			productReference = 40FB251B1C532FEB001C0F8F /* RedOrBluePillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40FB24F41C532FEB001C0F8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Brandon Kearns";
+				TargetAttributes = {
+					40FB24FB1C532FEB001C0F8F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					40FB250F1C532FEB001C0F8F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 40FB24FB1C532FEB001C0F8F;
+					};
+					40FB251A1C532FEB001C0F8F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 40FB24FB1C532FEB001C0F8F;
+					};
+				};
+			};
+			buildConfigurationList = 40FB24F71C532FEB001C0F8F /* Build configuration list for PBXProject "RedOrBluePill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40FB24F31C532FEB001C0F8F;
+			productRefGroup = 40FB24FD1C532FEB001C0F8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40FB24FB1C532FEB001C0F8F /* RedOrBluePill */,
+				40FB250F1C532FEB001C0F8F /* RedOrBluePillTests */,
+				40FB251A1C532FEB001C0F8F /* RedOrBluePillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40FB24FA1C532FEB001C0F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FB250A1C532FEB001C0F8F /* LaunchScreen.storyboard in Resources */,
+				40FB25071C532FEB001C0F8F /* Assets.xcassets in Resources */,
+				40FB25051C532FEB001C0F8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FB250E1C532FEB001C0F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FB25191C532FEB001C0F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40FB24F81C532FEB001C0F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FB25021C532FEB001C0F8F /* ViewController.swift in Sources */,
+				40FB25001C532FEB001C0F8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FB250C1C532FEB001C0F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FB25151C532FEB001C0F8F /* RedOrBluePillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FB25171C532FEB001C0F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FB25201C532FEB001C0F8F /* RedOrBluePillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40FB25121C532FEB001C0F8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40FB24FB1C532FEB001C0F8F /* RedOrBluePill */;
+			targetProxy = 40FB25111C532FEB001C0F8F /* PBXContainerItemProxy */;
+		};
+		40FB251D1C532FEB001C0F8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40FB24FB1C532FEB001C0F8F /* RedOrBluePill */;
+			targetProxy = 40FB251C1C532FEB001C0F8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40FB25031C532FEB001C0F8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FB25041C532FEB001C0F8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40FB25081C532FEB001C0F8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FB25091C532FEB001C0F8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40FB25221C532FEB001C0F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40FB25231C532FEB001C0F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40FB25251C532FEB001C0F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedOrBluePill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.RedOrBluePill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40FB25261C532FEB001C0F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedOrBluePill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.RedOrBluePill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40FB25281C532FEB001C0F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedOrBluePillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.RedOrBluePillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedOrBluePill.app/RedOrBluePill";
+			};
+			name = Debug;
+		};
+		40FB25291C532FEB001C0F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedOrBluePillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.RedOrBluePillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedOrBluePill.app/RedOrBluePill";
+			};
+			name = Release;
+		};
+		40FB252B1C532FEB001C0F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedOrBluePillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.RedOrBluePillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedOrBluePill;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		40FB252C1C532FEB001C0F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedOrBluePillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.RedOrBluePillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedOrBluePill;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40FB24F71C532FEB001C0F8F /* Build configuration list for PBXProject "RedOrBluePill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FB25221C532FEB001C0F8F /* Debug */,
+				40FB25231C532FEB001C0F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40FB25241C532FEB001C0F8F /* Build configuration list for PBXNativeTarget "RedOrBluePill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FB25251C532FEB001C0F8F /* Debug */,
+				40FB25261C532FEB001C0F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40FB25271C532FEB001C0F8F /* Build configuration list for PBXNativeTarget "RedOrBluePillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FB25281C532FEB001C0F8F /* Debug */,
+				40FB25291C532FEB001C0F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40FB252A1C532FEB001C0F8F /* Build configuration list for PBXNativeTarget "RedOrBluePillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FB252B1C532FEB001C0F8F /* Debug */,
+				40FB252C1C532FEB001C0F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40FB24F41C532FEB001C0F8F /* Project object */;
+}
